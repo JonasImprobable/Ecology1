@@ -1,0 +1,14 @@
+package improbable.animal;
+
+type AnimalGameInfoStateData {
+  float game_time = 1;
+  int32 map_size = 2;
+  float grid_size = 3;
+  map<int32, float> steering_source_weights = 4;
+}
+
+component AnimalGameInfoState {
+  id = 1004;
+  data AnimalGameInfoStateData;
+}
+

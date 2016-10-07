@@ -1,0 +1,6 @@
+package improbable.util;
+
+type ProtoFloatArray {
+  list<float> array = 1;
+}
+

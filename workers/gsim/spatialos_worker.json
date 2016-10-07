@@ -1,0 +1,27 @@
+{
+  "build_type": "scala",
+  "build_assets": ["gsim"],
+  "generate_build_scripts": true,
+  "launch": {
+	"auto": {
+		"windows": {
+			"command": "sbt",
+			"arguments": ["set fork in run := true", "runMain improbable.launch.AutoEngineSpoolUpDemonstrationLauncher"]
+		},
+		"mac": {
+			"command": "sbt",
+			"arguments": ["set fork in run := true", "runMain improbable.launch.AutoEngineSpoolUpDemonstrationLauncher"]
+		}
+	},
+	"manual": {
+		"windows": {
+			"command": "sbt",
+			"arguments": ["set fork in run := true", "runMain improbable.launch.ManualEngineSpoolUpDemonstrationLauncher"]
+		},
+		"mac": {
+			"command": "sbt",
+			"arguments": ["set fork in run := true", "runMain improbable.launch.ManualEngineSpoolUpDemonstrationLauncher"]
+		}
+	}
+  }
+}

@@ -1,0 +1,74 @@
+package improbable.util;
+
+enum EntityCategory {
+  Environment = 1;
+  Animal = 2;
+}
+
+enum EnvironmentType {
+  Lake = 0;
+  Steak = 1;
+  Rock = 2;
+  Grass = 3;
+  Bush = 4;
+  Tree = 5;
+}
+
+enum EnvironmentCategory {
+  WaterSource = 0;
+  Plant = 1;
+  Meat = 2;
+  Obstacle = 3;
+}
+
+enum AnimalType {
+  Elephant = 0;
+  Giraffe = 1;
+  Wildebeest = 2;
+  Cheetah = 3;
+  Hyena = 4;
+  Lion = 5;
+}
+
+enum AnimalCatergory {
+  Herbivore = 0;
+  Carnivore = 1;
+}
+
+enum AnimalGender {
+  Male = 0;
+  Female = 1;
+}
+
+enum AnimalVitalityStatus {
+  Alive = 0;
+  DeadNatural = 1;
+  DeadKilled = 2;
+}
+
+enum AnimalResource {
+  Stamina = 0;
+  Water = 1;
+  Food = 2;
+  Mating = 3;
+  Invalid = 4;
+}
+
+enum AnimalState {
+  Neutral = 0;
+  SeekingEntity = 1;
+  Interacting = 2;
+  Hunting = 3;
+  Fleeing = 4;
+  SeekingPosition = 5;
+  Sleeping = 6;
+}
+
+enum SteeringSourceType {
+  Wander = 0;
+  Herd = 1;
+  Follow = 2;
+  Seek = 3;
+  Avoid = 4;
+}
+

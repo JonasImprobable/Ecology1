@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 0a821a4c5f737a4419dd155307af0498
+timeCreated: 1473847140
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cheetah01_head_01_01SHJnt
+    100004: cheetah01_l_leg_AnkleSHJnt
+    100006: cheetah01_l_leg_BallSHJnt
+    100008: cheetah01_l_leg_HipSHJnt
+    100010: cheetah01_l_leg_Knee1SHJnt
+    100012: cheetah01_l_leg_Knee2SHJnt
+    100014: cheetah01_l_leg_ToeSHJnt
+    100016: cheetah01_l_legfore_ClavicleSHJnt
+    100018: cheetah01_l_legfore_ElbowSHJnt
+    100020: cheetah01_l_legfore_ShoulderSHJnt
+    100022: cheetah01_l_legfore_WristSHJnt
+    100024: cheetah01_MAINSHJnt
+    100026: cheetah01_neck_01_01SHJnt
+    100028: cheetah01_r_leg_AnkleSHJnt
+    100030: cheetah01_r_leg_BallSHJnt
+    100032: cheetah01_r_leg_HipSHJnt
+    100034: cheetah01_r_leg_Knee1SHJnt
+    100036: cheetah01_r_leg_Knee2SHJnt
+    100038: cheetah01_r_leg_ToeSHJnt
+    100040: cheetah01_r_legfore_ClavicleSHJnt
+    100042: cheetah01_r_legfore_ElbowSHJnt
+    100044: cheetah01_r_legfore_ShoulderSHJnt
+    100046: cheetah01_r_legfore_WristSHJnt
+    100048: cheetah01_ROOTSHJnt
+    100050: cheetah01_spine_01SHJnt
+    100052: cheetah01_spine_02SHJnt
+    100054: cheetah01_spine_03SHJnt
+    100056: cheetah01_spine_TopSHJnt
+    100058: cheetah01_tail_01_01SHJnt
+    100060: cheetah01_tail_01_02SHJnt
+    100062: cheetah01_tail_01_03SHJnt
+    100064: cheetah01_tail_01_04SHJnt
+    100066: cheetah01_tail_01_05SHJnt
+    100068: cheetah01_tail_01_06SHJnt
+    100070: cheetah01_tail_01_07SHJnt
+    100072: cheetah01_tail_01_08SHJnt
+    100074: sav_cheetah01
+    400000: //RootNode
+    400002: cheetah01_head_01_01SHJnt
+    400004: cheetah01_l_leg_AnkleSHJnt
+    400006: cheetah01_l_leg_BallSHJnt
+    400008: cheetah01_l_leg_HipSHJnt
+    400010: cheetah01_l_leg_Knee1SHJnt
+    400012: cheetah01_l_leg_Knee2SHJnt
+    400014: cheetah01_l_leg_ToeSHJnt
+    400016: cheetah01_l_legfore_ClavicleSHJnt
+    400018: cheetah01_l_legfore_ElbowSHJnt
+    400020: cheetah01_l_legfore_ShoulderSHJnt
+    400022: cheetah01_l_legfore_WristSHJnt
+    400024: cheetah01_MAINSHJnt
+    400026: cheetah01_neck_01_01SHJnt
+    400028: cheetah01_r_leg_AnkleSHJnt
+    400030: cheetah01_r_leg_BallSHJnt
+    400032: cheetah01_r_leg_HipSHJnt
+    400034: cheetah01_r_leg_Knee1SHJnt
+    400036: cheetah01_r_leg_Knee2SHJnt
+    400038: cheetah01_r_leg_ToeSHJnt
+    400040: cheetah01_r_legfore_ClavicleSHJnt
+    400042: cheetah01_r_legfore_ElbowSHJnt
+    400044: cheetah01_r_legfore_ShoulderSHJnt
+    400046: cheetah01_r_legfore_WristSHJnt
+    400048: cheetah01_ROOTSHJnt
+    400050: cheetah01_spine_01SHJnt
+    400052: cheetah01_spine_02SHJnt
+    400054: cheetah01_spine_03SHJnt
+    400056: cheetah01_spine_TopSHJnt
+    400058: cheetah01_tail_01_01SHJnt
+    400060: cheetah01_tail_01_02SHJnt
+    400062: cheetah01_tail_01_03SHJnt
+    400064: cheetah01_tail_01_04SHJnt
+    400066: cheetah01_tail_01_05SHJnt
+    400068: cheetah01_tail_01_06SHJnt
+    400070: cheetah01_tail_01_07SHJnt
+    400072: cheetah01_tail_01_08SHJnt
+    400074: sav_cheetah01
+    4300000: sav_cheetah01
+    9500000: //RootNode
+    13700000: sav_cheetah01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

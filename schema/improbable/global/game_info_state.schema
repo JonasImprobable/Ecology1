@@ -1,0 +1,20 @@
+package improbable.global;
+import "improbable/util/data_structures.schema";
+
+type GameInfoStateData {
+  float game_time = 1;
+  int32 map_size = 2;
+  float grid_size = 3;
+  int32 octave_count = 4;
+  float persistence = 5;
+  float vegetation_density = 6;
+  list<util.ProtoFloatArray> terrain_noise_map_scaled = 7;
+  map<int32, float> steering_source_weights = 8;
+  map<string, int32> entity_registry = 9;
+}
+
+component GameInfoState {
+  id = 1002;
+  data GameInfoStateData;
+}
+

@@ -1,0 +1,12 @@
+package improbable.animal;
+import "improbable/util/enums.schema";
+
+type TransitionToStateEventData {
+  util.AnimalState state = 1;
+}
+
+component AnimalGsimState {
+  id = 1011;
+  event TransitionToStateEventData transition_to_state_event_data;
+}
+

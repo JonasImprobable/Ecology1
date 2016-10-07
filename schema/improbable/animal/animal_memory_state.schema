@@ -1,0 +1,8 @@
+package improbable.animal;
+import "improbable/util/data_structures.schema";
+
+component AnimalMemoryState {
+  id = 1010;
+  list<util.ProtoFloatArray> memory_map = 1;
+}
+

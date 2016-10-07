@@ -1,0 +1,67 @@
+package improbable.player;
+import "improbable/util/enums.schema";
+
+type SpawnEnvironmentEventData {
+  util.EnvironmentType environment_type = 1;
+  Vector3d position = 2;
+}
+
+type SpawnAnimalEventData {
+  util.AnimalType species = 1;
+  Vector3d position = 2;
+}
+
+type KillEntityEventData {
+  EntityId entity = 1;
+}
+
+type DestroyEntityEventData {
+  EntityId entity = 1;
+}
+
+type MoveEntityEventData {
+  EntityId entity = 1;
+  Vector3d position = 2;
+}
+
+type SetMapParametersEventData {
+  int32 map_size = 1;
+  float grid_size = 2;
+  int32 octave_count = 3;
+  float persistence = 4;
+  float vegetation_density = 5;
+}
+
+type RefreshTerrainEventData {
+  int32 map_size = 1;
+  float grid_size = 2;
+  float vegetation_density = 3;
+}
+
+type SpawnAnimalsEventData {
+  int32 map_size = 1;
+  float grid_size = 2;
+}
+
+type SetAnimalSteeringParametersEventData {
+  float wander = 1;
+  float herd = 2;
+  float follow = 3;
+  float seek = 4;
+  float avoid = 5;
+}
+
+component PlayerControlsState {
+  id = 1007;
+  util.AnimalGender active_animal_gender = 3;
+  event SpawnEnvironmentEventData spawn_environment_event;
+  event SpawnAnimalEventData spawn_animal_event;
+  event KillEntityEventData kill_entity_event;
+  event DestroyEntityEventData destroy_entity_event;
+  event MoveEntityEventData move_entity_event;
+  event SetMapParametersEventData set_map_parameters_event;
+  event RefreshTerrainEventData refresh_terrain_event;
+  event SpawnAnimalsEventData spawn_animals_event;
+  event SetAnimalSteeringParametersEventData set_animal_steering_parameters_event;
+}
+

@@ -1,0 +1,4 @@
+2
+schema\improbable\global\game_info_state.schema
+schema\improbable\global\game_info_state.schema | schema\improbable\util\data_structures.schema
+.protocache\generated_ir\improbable\global\game_info_state.proto

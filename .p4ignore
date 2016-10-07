@@ -1,0 +1,71 @@
+workers\unity\client.log
+workers\unity\Assets\Improbable
+#generated data files
+workers\gsim\src\main\resources\generated
+# Visual Studio Generated Files
+obj\*
+bin\*
+*.log
+*.suo
+*.csproj.user
+*.sln.DotSettings.user
+*.exe
+workers\unity\ProjectSettings\ProjectVersion.txt
+*.mdb
+*.mdb.meta
+*.vcproject
+LivingCities\ProjectSettings\ProjectVersion.txt
+*.svd
+*.userprefs
+*.sln
+*.csproj
+*.pidb
+*.unityproj
+*popcorn.htm
+workers\unity\Assets\workers\gsim\Generated\*
+# IntelliJ Generated Files
+workers\gsim\.idea
+.idea
+# SBT
+target\*
+# Logs
+logs\*
+Data\*
+toolbelt.log
+workers\unity\zip_toolbelt.log
+client.log.*
+# Mac-specific
+**\.DS_Store
+# Asset Database and Library
+Data\AssetDatabase
+workers\unity\Library\*
+workers\unity\.dependencies\*
+# Built out assets
+workers\unity\Assets\Improbable\*
+workers\unity\Assets\Resources\Mesh\Generated
+# Third party assets
+workers\unity\Assets\ThirdParty\*
+# Unity
+workers\unity\ProjectSettings\UnityAnalyticsManager.asset
+workers\unity\ProjectSettings\UnityAdsSettings.asset
+workers\unity\Temp\*
+workers\unity\.nugetDepStaging\*
+workers\unity\Assets\Gamelogic\Generated\*
+workers\unity\Assets\Plugins\*
+workers\unity\Editor.sln
+workers\unity\Assembly-CSharp.csproj
+workers\unity\Assembly-CSharp-Editor.csproj
+workers\unity\build.json
+workers\unity\spatialos_worker_packages.json
+# Schema
+workers\unity\schema.html
+workers\gsim\schema.html
+schema\improbable\improbable.iml
+#generated schema
+workers\gsim\generated
+# FSim
+workers\unity\FSim\*
+#Editor backup files
+*~
+# Build
+build\*

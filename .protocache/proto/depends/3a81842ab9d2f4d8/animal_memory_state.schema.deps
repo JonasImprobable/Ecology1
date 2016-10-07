@@ -1,0 +1,4 @@
+2
+schema\improbable\animal\animal_memory_state.schema
+schema\improbable\animal\animal_memory_state.schema | schema\improbable\util\data_structures.schema
+.protocache\generated_ir\improbable\animal\animal_memory_state.proto

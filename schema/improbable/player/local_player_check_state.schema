@@ -1,0 +1,6 @@
+package improbable.player;
+
+component LocalPlayerCheckState {
+  id = 1000;
+}
+

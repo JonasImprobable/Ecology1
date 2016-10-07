@@ -1,0 +1,7 @@
+package improbable.entity;
+
+component EntityInfoState {
+  id = 1012;
+  string entity_type = 1;
+}
+

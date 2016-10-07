@@ -1,0 +1,17 @@
+package improbable.animal;
+
+type SteeringSource {
+  Vector3d direction = 1;
+  float intensity = 2; // between 0 and 1
+}
+
+type AnimalMovementStateData {
+  SteeringSource steering_source_aggregate = 1;
+  map<int32, SteeringSource> steering_sources = 2; // key encodes sterringsourcetype enum
+}
+
+component AnimalMovementState {
+  id = 1008;
+  data AnimalMovementStateData;
+}
+

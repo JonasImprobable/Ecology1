@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d61cba77cd29641814096ab39ac2e6, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: Profile
+  EventWwu:
+  - PhysicalPath: Events\AP3X\AP3X_SFX.wwu
+    ParentPhysicalPath: 
+    Guid: '{173CD2E3-309B-47C2-8497-CC1398FDAEF9}'
+    m_lastTimePsrt1: -1091237052
+    m_lastTimePart2: -1999411103
+    List:
+    - Name: Play_Dummy
+      Path: AP3X\AP3X_SFX\Play_Dummy
+      PathAndIcons:
+      - ElementName: AP3X
+        ObjectType: 5
+      - ElementName: AP3X_SFX
+        ObjectType: 12
+      - ElementName: Play_Dummy
+        ObjectType: 3
+      ID: -2119098854
+      Guid: 73bd7433ba33f94d86e0b14d5b3b46ab
+      maxAttenuation: 0
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{59F36C44-900A-4E6D-AD6C-ACD0A4480C73}'
+    m_lastTimePsrt1: 961448491
+    m_lastTimePart2: -1999411134
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{8A771112-8B1A-4775-876B-59909305EEA5}'
+    m_lastTimePsrt1: 1323665662
+    m_lastTimePart2: -1999411103
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{9B890D82-DE9E-459C-AC58-786BCAADFD20}'
+    m_lastTimePsrt1: 961448491
+    m_lastTimePart2: -1999411134
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{66EBEA75-F01D-40FD-ABE2-481D3CFD0BFF}'
+    m_lastTimePsrt1: 961458499
+    m_lastTimePart2: -1999411134
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\AP3X\AP3X.wwu
+    ParentPhysicalPath: 
+    Guid: '{12AA8A6E-8C5A-4576-870B-1327415DB76B}'
+    m_lastTimePsrt1: -1091187011
+    m_lastTimePart2: -1999411103
+    List:
+    - Name: AP3X_SFX
+      Path: AP3X\AP3X\AP3X_SFX
+      PathAndIcons:
+      - ElementName: AP3X
+        ObjectType: 5
+      - ElementName: AP3X
+        ObjectType: 12
+      - ElementName: AP3X_SFX
+        ObjectType: 7
+      ID: -1922740717
+      Guid: 4529ded33559464e83c5e6fe8972fd3e
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{C945F976-CB1D-4FB4-BD59-662A433FD1A6}'
+    m_lastTimePsrt1: 961418456
+    m_lastTimePart2: -1999411134
+    List: []
+  ExpandedItems:
+  - /ImprobableDemoTemplate
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 16384
+  lowerPoolSize: 16384
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95

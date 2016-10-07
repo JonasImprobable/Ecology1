@@ -1,0 +1,381 @@
+{
+  "javaparams": [
+    {
+      "name": "-DCLOUD_LAUNCH_CONFIG",
+      "value": "improbable.launch.AutomaticEngineStartupLaunchConfig"
+    },
+    {
+      "name": "-DIGNORE_FLAGS_IN_GAME_PROPERTIES_FILE",
+      "value": "true"
+    }
+  ],
+  "flagz": [
+    {   
+       "name": "loadbalancer_enable",
+       "value": "false"
+    }, 
+    {   
+       "name": "loadbalancer_worker_range",
+       "value": "625"
+    },  
+    {
+       "name": "loadbalancer_grid_size",
+       "value": "8"
+    },                
+    {
+      "name": "loadbalancer_hex_grid",
+      "value": "true"
+    },
+    {
+        "name": "engine_range_limit_prefix",
+        "value": "UnityFSim"
+    },
+    {
+        "name": "bridge_actor_ping_initial_delay_seconds",
+        "value": "300"
+    },
+    {
+        "name": "qos_max_unacked_pings_rate",
+        "value": "0.5"
+    },
+    {
+        "name": "bridge_enable_ping",
+        "value": "true"
+    },
+    {
+        "name": "checkout_batch_max_entities",
+        "value": "200"
+    },
+    {
+      "name": "bridge_enable_ping",
+      "value": "true"
+    },
+    {
+      "name": "engine_start_timeout_seconds",
+      "value": "9.999999e+06"
+    },
+    {
+      "name": "entity_activator",
+      "value": "improbable.corelib.entity.CoreLibraryEntityActivator"
+    },
+    {
+      "name": "game_chunk_size",
+      "value": "100"
+    },
+    {
+      "name": "game_world_edge_length",
+      "value": "8000"
+    },
+    {
+      "name": "player_engine_type",
+      "value": "UnityClient"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "master",
+      "modules": [
+        {
+          "name": "ReceptionistModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "DevWorldRestApiModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "BridgeOracleModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "BridgeModuleOracleModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "EngineStartupModuleOracleModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "InspectionRestModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "PersistenceModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "WorldAppSupervisorModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "WorldAppOracleModule",
+          "params": [
+          ]
+        }
+      ],
+      "size": "quad"
+    },
+    {
+      "name": "gsim_sw",
+      "modules": [
+        {
+          "name": "ProfilingModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "RouterModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "GSimBridgeModule",
+          "params": [
+            {
+              "name": "gSimNumber",
+              "value": "0"
+            },
+            {
+              "name": "nee",
+              "value": "-1"
+            },
+            {
+              "name": "nen",
+              "value": "-1"
+            },
+            {
+              "name": "swe",
+              "value": "-40"
+            },
+            {
+              "name": "swn",
+              "value": "-40"
+            }
+          ]
+        }
+      ],
+      "size": "octa"
+    },
+    {
+      "name": "gsim_se",
+      "modules": [
+        {
+          "name": "ProfilingModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "RouterModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "GSimBridgeModule",
+          "params": [
+            {
+              "name": "gSimNumber",
+              "value": "1"
+            },
+            {
+              "name": "nee",
+              "value": "39"
+            },
+            {
+              "name": "nen",
+              "value": "-1"
+            },
+            {
+              "name": "swe",
+              "value": "0"
+            },
+            {
+              "name": "swn",
+              "value": "-40"
+            }
+          ]
+        }
+      ],
+      "size": "octa"
+    },
+    {
+      "name": "gsim_nw",
+      "modules": [
+        {
+          "name": "ProfilingModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "RouterModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "GSimBridgeModule",
+          "params": [
+            {
+              "name": "gSimNumber",
+              "value": "2"
+            },
+            {
+              "name": "nee",
+              "value": "-1"
+            },
+            {
+              "name": "nen",
+              "value": "39"
+            },
+            {
+              "name": "swe",
+              "value": "-40"
+            },
+            {
+              "name": "swn",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "size": "octa"
+    },
+    {
+      "name": "gsim_ne",
+      "modules": [
+        {
+          "name": "ProfilingModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "RouterModule",
+          "params": [
+          ]
+        },
+        {
+          "name": "GSimBridgeModule",
+          "params": [
+            {
+              "name": "gSimNumber",
+              "value": "3"
+            },
+            {
+              "name": "nee",
+              "value": "39"
+            },
+            {
+              "name": "nen",
+              "value": "39"
+            },
+            {
+              "name": "swe",
+              "value": "0"
+            },
+            {
+              "name": "swn",
+              "value": "0"
+            }
+          ]
+        }
+      ],
+      "size": "octa"
+    },
+    {
+      "name": "fsim_0",
+      "modules": [
+        {
+          "name": "EngineStartupModule"
+        },
+        {
+          "name": "AssetDatabaseModule"
+        },
+        {
+          "name": "ProfilingModule"
+        }
+      ],
+      "size": "quad"
+    },
+    {
+      "name": "fsim_1",
+      "modules": [
+        {
+          "name": "EngineStartupModule"
+        },
+        {
+          "name": "AssetDatabaseModule"
+        },
+        {
+          "name": "ProfilingModule"
+        }
+      ],
+      "size": "quad"
+    },
+    {
+      "name": "fsim_2",
+      "modules": [
+        {
+          "name": "EngineStartupModule"
+        },
+        {
+          "name": "AssetDatabaseModule"
+        },
+        {
+          "name": "ProfilingModule"
+        }
+      ],
+      "size": "quad"
+    },
+    {
+      "name": "fsim_3",
+      "modules": [
+        {
+          "name": "EngineStartupModule"
+        },
+        {
+          "name": "AssetDatabaseModule"
+        },
+        {
+          "name": "ProfilingModule"
+        }
+      ],
+      "size": "quad"
+    },
+    {
+      "name": "fsim_4",
+      "modules": [
+        {
+          "name": "EngineStartupModule"
+        },
+        {
+          "name": "AssetDatabaseModule"
+        },
+        {
+          "name": "ProfilingModule"
+        }
+      ],
+      "size": "quad"
+    },
+    {
+      "name": "fsim_5",
+      "modules": [
+        {
+          "name": "EngineStartupModule"
+        },
+        {
+          "name": "AssetDatabaseModule"
+        },
+        {
+          "name": "ProfilingModule"
+        }
+      ],
+      "size": "quad"
+    }
+  ]
+}

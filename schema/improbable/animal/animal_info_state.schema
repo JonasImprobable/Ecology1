@@ -1,0 +1,32 @@
+package improbable.animal;
+import "improbable/util/enums.schema";
+
+type AnimalInfoStateData {
+  util.AnimalType species = 1;
+  util.AnimalGender gender = 2;
+  util.AnimalVitalityStatus is_alive = 3; // only touched by deathbehaviour
+
+  float age = 4; // in hours //managed by animallifecyclemanager
+  float remaining_life_expectancy = 5; // in hours
+  bool is_adult = 6; // synchronised for visualisation purposes
+  float size = 7; // avg = 1
+  float priority = 8; // static, randomly assigned at spawn
+  float speed = 9;
+
+  float stamina = 10; // values all capped at 100.0f
+  float water = 11;
+  float food = 12;
+  float mating = 13;
+  map<int32, float> resource_loss_cooldowns = 14; // key encodes animalresource enum
+
+  bool is_pregnant = 15; // controlled by reproductionbehaviour
+  float remaining_pregnancy_time = 16;
+  EntityId mother = 17;
+  float meat_as_food_resource = 18; // depleting resource as a food source
+}
+
+component AnimalInfoState {
+  id = 1001;
+  data AnimalInfoStateData;
+}
+

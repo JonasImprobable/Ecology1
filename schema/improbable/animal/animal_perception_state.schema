@@ -1,0 +1,34 @@
+package improbable.animal;
+import "improbable/util/enums.schema";
+
+type PerceivedEnvironmentInfo {
+  EntityId entity_id = 1;
+  Vector3d position = 2;
+  util.EnvironmentType environment_type = 3;
+  float resources = 4;
+  bool traversable = 5;
+}
+
+type PerceivedAnimalInfo {
+  EntityId entity_id = 1;
+  Vector3d position = 2;
+  Vector3d velocity = 3;
+  util.AnimalType species = 4;
+  util.AnimalGender gender = 5;
+  util.AnimalState state = 6;
+  util.AnimalVitalityStatus is_alive = 7;
+  bool is_adult = 8;
+  bool is_pregnant = 9;
+  float priority = 10;
+}
+
+type AnimalPerceptionStateData {
+  map<EntityId, PerceivedEnvironmentInfo> perceived_environment_entities = 1;
+  map<EntityId, PerceivedAnimalInfo> perceived_animals = 2;
+}
+
+component AnimalPerceptionState {
+  id = 1005;
+  data AnimalPerceptionStateData;
+}
+

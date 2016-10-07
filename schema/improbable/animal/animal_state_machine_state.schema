@@ -1,0 +1,30 @@
+package improbable.animal;
+import "improbable/util/enums.schema";
+
+type PickNeedTargetSuggestionEventData {
+  util.AnimalResource target_need = 1;
+  EntityId target_entity_id = 2;
+}
+
+type AttackPreyEventData {
+  EntityId target_entity_id = 1;
+}
+
+type AnimalStateMachineStateData {
+  util.AnimalState current_state = 1;
+  float current_state_duration = 2;
+  // for how long the entity has been in its current state
+  util.AnimalResource target_need = 3;
+  EntityId target_entity = 4;
+  Vector3d target_position = 5;
+  map<int32, float> needs_cooldowns = 6;
+  // key encodes animalresource enum
+  map<EntityId, float> entity_cooldowns = 7;
+}
+
+component AnimalStateMachineState {
+  id = 1009;
+  data AnimalStateMachineStateData;
+  event AttackPreyEventData attack_prey_event;
+}
+

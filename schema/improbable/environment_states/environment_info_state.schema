@@ -1,0 +1,15 @@
+package improbable.environment_states;
+import "improbable/util/enums.schema";
+
+component EnvironmentInfoState {
+  id = 1006;
+  util.EnvironmentType environment_type = 1;
+  float resources = 2;
+  // between 0 and 100
+  bool traversable = 3;
+  float size = 4;
+  // calculated from resources in EnvironmentProperties, synchronised for visualisation purposes
+  float rotation = 5;
+  // random float between 0 and 1, static and set at creation
+}
+

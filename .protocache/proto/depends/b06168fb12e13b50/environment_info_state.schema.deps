@@ -1,0 +1,4 @@
+2
+schema\improbable\environment_states\environment_info_state.schema
+schema\improbable\environment_states\environment_info_state.schema | schema\improbable\util\enums.schema
+.protocache\generated_ir\improbable\environment_states\environment_info_state.proto

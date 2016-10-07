@@ -1,0 +1,4 @@
+2
+schema\improbable\animal\animal_gsim_state.schema
+schema\improbable\animal\animal_gsim_state.schema | schema\improbable\util\enums.schema
+.protocache\generated_ir\improbable\animal\animal_gsim_state.proto
